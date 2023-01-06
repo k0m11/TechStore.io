@@ -30,6 +30,7 @@ a {
     border-radius: 7px;
     border-color: rgb(240, 240, 240);
     background-color: rgb(255, 255, 255);
+    margin-top: 70px;
 }
 
 .card>a>img {
@@ -89,7 +90,6 @@ a {
     background-color: rgb(201, 120, 0);
 }
 
-
 /* StyleMainContainer */
 
 .img-text {
@@ -136,8 +136,30 @@ img {
 }
 
 .container {
+    position: relative;
     grid-column: 2/12;
     background-color: rgb(245, 245, 245);
+}
+
+.description {
+    position: absolute;
+    right: 0;
+    color: white;
+    border-radius: 5px;
+    background-color:rgb(235, 142, 4);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 1.2em;
+}
+
+.description a p {
+    color: white;
+}
+
+.description:hover {
+    background-color: rgb(201, 120, 0);
 }
 
 @media (max-width: 1350px) {
@@ -212,6 +234,9 @@ img {
 }
 
 @media (max-width: 750px) {
+    .description {
+        margin-right: 1em;
+    }
     .info-bottom-proc p {
         float: right;
         font-size: 20px;
@@ -266,6 +291,9 @@ img {
     }
 }
 @media (max-width: 400px) {
+    .description {
+        margin-right: 1em;
+    }
     .img-text {
         top: 180px;
     }
