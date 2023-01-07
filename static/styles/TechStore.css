@@ -170,11 +170,11 @@ img {
     display: flex;
     overflow: hidden;
     justify-content: center;
-    background-color: rgb(216, 130, 0);
+    background-color: rgb(207, 124, 0);
 }
 
 .about p {
-    color: rgba(250, 173, 57, 0.904);
+    color: rgba(255, 188, 88, 0.918);
     padding-top: 30px;
     font-size: 24px;
     font-family: Kodchasan;    
@@ -198,6 +198,66 @@ img {
     color: rgba(0, 0, 0, 0.733);
     font-size: 18px;
     padding-top: 0;
+}
+
+.commerce {
+    padding: 1em;
+    grid-column: 2/12;
+    height: 30px;
+    left: 0;
+    background-color:rgb(80, 80, 80);
+    
+}
+.commerce a {
+    color: white;
+    padding: 3em;
+    font-size: 16px;
+}
+.trekking {
+    position: relative;
+    grid-column: 2/12;
+    height: 300px;
+    background-color:rgb(65, 65, 65);
+    max-width: 9999px;
+}
+
+.left {
+    padding-top: 80px;
+    padding-left: 4.5em;
+    max-width: 350px;
+    position: absolute;
+    left: 0;
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 13px;
+}
+
+.right {
+    padding-top: 80px;
+    position: absolute;
+    right: 0;
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 13px;
+    padding-right: 4.5em;
+}
+
+.right hr {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.right a {
+    color: white;
+    font-size: 16px;
+}
+
+.made-by  p{
+    position: absolute;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.24);
 }
 
 @media (max-width: 1350px) {
@@ -277,6 +337,36 @@ img {
 }
 
 @media (max-width: 750px) {
+    .made-by p{
+        font-size: 10px;
+    }
+    .right {
+        padding-right: 2.5em;
+    }
+    .right a {
+        font-size: 11px;
+    }
+    .right hr {
+        width: 50px;
+    }
+    .left p {
+        font-size: 11px;
+    }
+    .left {
+        max-width: 200px;
+        padding-left: 2.5em;
+    }
+    .trekking {
+        grid-column: 1/13;
+    }
+    .commerce {
+        grid-column: 1/13; 
+        padding: 1em;       
+    }
+    .commerce a{
+        padding: 1em;
+        font-size: 13px;       
+    }
     .about {
         height: 250px;
         grid-column: 1/13;
@@ -346,6 +436,32 @@ img {
     }
 }
 @media (max-width: 500px) {
+    .right {
+        padding-right: 2.5em;
+    }
+    .right a {
+        font-size: 11px;
+    }
+    .right hr {
+        width: 50px;
+    }
+    .left p {
+        font-size: 11px;
+    }
+    .left {
+        max-width: 200px;
+        padding-left: 2.5em;
+    }
+    .trekking {
+        grid-column: 1/13;
+    }
+    .commerce {
+        grid-column: 1/13;        
+    }
+    .commerce a{
+        padding: 1em;
+        font-size: 10px;       
+    }
     .about {
         height: 240px;
         grid-column: 1/13;
