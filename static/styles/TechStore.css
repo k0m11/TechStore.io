@@ -10,6 +10,7 @@ a {
 }
 
 .container {
+    position: relative;
     grid-column: 3/11;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -30,7 +31,7 @@ a {
     border-radius: 7px;
     border-color: rgb(240, 240, 240);
     background-color: rgb(255, 255, 255);
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .card>a>img {
@@ -136,7 +137,7 @@ img {
 }
 
 .container {
-    position: relative;
+    display:grid;
     grid-column: 2/12;
     background-color: rgb(245, 245, 245);
 }
@@ -150,7 +151,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 1.2em;
 }
 
@@ -160,6 +161,43 @@ img {
 
 .description:hover {
     background-color: rgb(201, 120, 0);
+}
+
+.about {
+    grid-column: 2/12;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    background-color: rgb(216, 130, 0);
+}
+
+.about p {
+    color: rgba(250, 173, 57, 0.904);
+    padding-top: 30px;
+    font-size: 24px;
+    font-family: Kodchasan;    
+}
+
+.about-text {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2.5px;
+    border-color: rgba(252, 162, 27, 0.733);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 65px;
+    width: 40%;
+    position: absolute;
+    text-align: center;
+    font-family: Kodchasan;    
+}
+
+.about-text p {
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 18px;
+    padding-top: 0;
 }
 
 @media (max-width: 1350px) {
@@ -197,6 +235,11 @@ img {
 }
 
 @media (max-width: 1000px) {
+    .about-text {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        width: 60%;
+    }
 
     .logo img{
         padding: 5px;
@@ -234,6 +277,18 @@ img {
 }
 
 @media (max-width: 750px) {
+    .about {
+        height: 250px;
+        grid-column: 1/13;
+    }
+    .about-text {
+        padding-top: 25px;
+        padding-bottom: 35px;
+        width: 65%;
+    }
+    .about-text p {
+        font-size: 14px;
+    }
     .description {
         margin-right: 1em;
     }
@@ -290,7 +345,19 @@ img {
         grid-template-rows: repeat(1);
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+    .about {
+        height: 240px;
+        grid-column: 1/13;
+    }
+    .about-text {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        width: 65%;
+    }
+    .about-text p {
+        font-size: 14px;
+    }
     .description {
         margin-right: 1em;
     }
