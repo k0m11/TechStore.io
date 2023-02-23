@@ -48,6 +48,11 @@ a {
     border-style:solid;
     border-width: 4px;
     border-color:rgba(218, 131, 1, 0.404);
+    transition: 0.3s;
+}
+
+.card:hover:after {
+    width: 100%;
 }
 
 .info-top p {
@@ -121,12 +126,6 @@ a {
     width: 100%;
     object-fit: cover;
     z-index: 1; 
-}
-
-img {
-    max-width:100%;
-    height:auto;
-    margin-bottom: 0em;
 }
 
 .main-container {
@@ -209,10 +208,10 @@ img {
     
 }
 .commerce a {
-    color: white;
+    color: rgba(255, 255, 255, 0.623);
     padding: 3em;
-    font-size: 16px;
 }
+
 .trekking {
     position: relative;
     grid-column: 2/12;
@@ -261,6 +260,9 @@ img {
 }
 
 @media (max-width: 1350px) {
+    .card img{
+        height: 280px;
+    }
     .img-text {
         font-size: 20px;
         top: 420px;
@@ -295,6 +297,9 @@ img {
 }
 
 @media (max-width: 1000px) {
+    .card img {
+        height: 280px;
+    }
     .about-text {
         padding-top: 80px;
         padding-bottom: 80px;
@@ -326,6 +331,7 @@ img {
         z-index: 1;
     }
     .card {
+        max-width: 320px;
         padding-right: 15px;
     }
     .container {
@@ -337,6 +343,9 @@ img {
 }
 
 @media (max-width: 750px) {
+    .card img {
+        height: 190px;
+    }
     .made-by p{
         font-size: 10px;
     }
@@ -436,6 +445,10 @@ img {
     }
 }
 @media (max-width: 500px) {
+    .card img {
+        min-height: 100px;
+        max-height: 170px;
+    }
     .right {
         padding-right: 2.5em;
     }
