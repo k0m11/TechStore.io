@@ -14,7 +14,6 @@ a {
     grid-column: 3/11;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1);
 }
 
 * {
@@ -141,27 +140,6 @@ a {
     background-color: rgb(245, 245, 245);
 }
 
-.description {
-    position: absolute;
-    right: 0;
-    color: white;
-    border-radius: 5px;
-    background-color:rgb(235, 142, 4);
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-right: 1.2em;
-}
-
-.description a p {
-    color: white;
-}
-
-.description:hover {
-    background-color: rgb(201, 120, 0);
-}
-
 .about {
     grid-column: 2/12;
     height: 400px;
@@ -260,9 +238,6 @@ a {
 }
 
 @media (max-width: 1350px) {
-    .card img{
-        height: 280px;
-    }
     .img-text {
         font-size: 20px;
         top: 420px;
@@ -297,9 +272,6 @@ a {
 }
 
 @media (max-width: 1000px) {
-    .card img {
-        height: 280px;
-    }
     .about-text {
         padding-top: 80px;
         padding-bottom: 80px;
@@ -343,9 +315,6 @@ a {
 }
 
 @media (max-width: 750px) {
-    .card img {
-        height: 190px;
-    }
     .made-by p{
         font-size: 10px;
     }
@@ -445,10 +414,6 @@ a {
     }
 }
 @media (max-width: 500px) {
-    .card img {
-        min-height: 100px;
-        max-height: 150px;
-    }
     .right {
         padding-right: 2.5em;
     }
@@ -561,7 +526,7 @@ a {
     display: block;
     padding: 0.5em;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .nav-list a:hover {
