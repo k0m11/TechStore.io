@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.allProducts {
+    display: grid;
+    grid-column: 1/12;
+    position: relative;
+    border-radius: 4px;
+    font-size: 30px;
+    background-color: white;
+    color:rgb(44, 40, 40);
+    padding: 5px;
+    justify-content: center;
+}
+
+.ProdCart {
+    display: flex;
+    border-radius: 4px;
+    border: solid;
+    border-color: rgb(241, 241, 241);
+    border-width: 0.5px;
+    margin-bottom: 10px;
+}
+
+.about .prices{
+    display: flex;
+    gap: 30px;
+}
+
+.Title {
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.buy p {
+    width: 50px;
+    color: white;
+    border-radius: 5px;
+    background-color:rgb(235, 142, 4);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.buy p:hover {
+    background-color: rgb(201, 120, 0);
+}
+
+/* NavBar */
+/* NavBar */
+/* NavBar */
+
+
+.busket a {
+    color: black;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.busket img:hover {
+    background-color: rgba(58, 147, 206, 0.027);
+}
+
+.navbar a {
+    text-decoration: none;
+    display: block;
+}
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+    background-color:rgb(53, 53, 53);
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a {
+    display: block;
+    padding: 0.5em;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.nav-list a:hover {
+    background-color: rgba(129, 129, 129, 0.24);
+}
+
+/* NavBar */
+/* NavBar */
+/* NavBar */
