@@ -79,6 +79,7 @@ a {
 }
 
 .buy p {
+    cursor: pointer;
     position: absolute;
     right: 10px;
     bottom: 0;
@@ -498,8 +499,6 @@ a {
 .busket a {
     color: black;
     width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .busket img:hover {
@@ -534,4 +533,14 @@ a {
 
 .nav-list a:hover {
     background-color: rgba(129, 129, 129, 0.24);
+}
+
+#AllProd {
+    border-radius: 100px;
+    height: 30px;
+    padding: 3px;
+    color: white;
+    background-color: orangered;
+    font-size: 20px;
+    margin-right: 10px;
 }
