@@ -511,6 +511,9 @@ a {
 }
 
 .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     overflow: hidden;
     display: flex;
     background-color:rgb(53, 53, 53);
