@@ -38,6 +38,7 @@
 }
 
 .buy p {
+    cursor: pointer;
     width: 50px;
     color: white;
     border-radius: 5px;
@@ -47,6 +48,7 @@
     margin-bottom: 10px;
     font-size: 26px;
 }
+
 
 .buy p:hover {
     background-color: rgb(201, 120, 0);
@@ -60,8 +62,6 @@
 .busket a {
     color: black;
     width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .busket img:hover {
@@ -96,6 +96,16 @@
 
 .nav-list a:hover {
     background-color: rgba(129, 129, 129, 0.24);
+}
+
+#AllProd {
+    border-radius: 100px;
+    height: 30px;
+    padding: 3px;
+    color: white;
+    background-color: orangered;
+    font-size: 20px;
+    margin-right: 10px;
 }
 
 /* NavBar */
