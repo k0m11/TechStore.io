@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+
+.busket a {
+    color: black;
+    width: 100%;
+}
+
+.busket img:hover {
+    background-color: rgba(58, 147, 206, 0.027);
+}
+
+.navbar a {
+    display: block;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    overflow: hidden;
+    display: flex;
+    background-color:rgb(53, 53, 53);
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    float: right;
+}
+
+.nav-list a {
+    display: block;
+    padding: 0.5em;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.nav-list a:hover {
+    background-color: rgba(129, 129, 129, 0.24);
+}
+
+#AllProd {
+    border-radius: 100px;
+    height: 30px;
+    padding: 3px;
+    color: white;
+    background-color: orangered;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.shopping-cart {
+    padding: 1em;
+}
