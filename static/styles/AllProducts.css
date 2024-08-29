@@ -21,7 +21,7 @@
 
 .ProdCart {
     display: flex;
-    border-radius: 4px;
+    border-radius: 10px;
     border: solid;
     border-color: rgb(241, 241, 241);
     border-width: 0.5px;
