@@ -26,6 +26,7 @@
     border-color: rgb(241, 241, 241);
     border-width: 0.5px;
     margin-bottom: 10px;
+    box-shadow: 10px 10px 10px rgba(239,240,246,255);
 }
 
 .about .prices{
